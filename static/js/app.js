@@ -49,7 +49,11 @@ function buildCharts(sample) {
     let layout = {
       showlegend: false,
       height: 700,
-      width: 1400
+      width: 1400,
+      font:{
+        family:"Droid Sans Mono",
+        size:17
+      }
     };
 
     Plotly.newPlot('bubble', traceBubble1, layout);
@@ -67,8 +71,12 @@ function buildCharts(sample) {
       pull:0.1
     }];
     let layout1 = {
-      title: 'Belly Button Biodiversity Data',
+      title: 'Belly Button Samples - Top 10',
       showlegend: true,
+      font:{
+        family:"Droid Sans Mono",
+        size:17
+      }
     };
     Plotly.newPlot('pie', data, layout1);
 

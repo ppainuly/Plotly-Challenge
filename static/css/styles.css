@@ -1,0 +1,74 @@
+html{
+    background-image: url("https://images.unsplash.com/photo-1543358172-2ba567a945bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    opacity: 0.85;
+    background-size: cover;
+}
+.col-md-12{
+    opacity: 0.9;
+    background-color: black;
+}
+
+.jumbotron {
+    background-color: white;
+    opacity:0.9;
+    color: darkgrey;
+
+}
+.container{
+    border-color: #337ab7;
+}
+.jumbotron h1{
+    color: black;
+    opacity: 0.9;
+    font-family: Andale Mono; 
+
+
+
+}
+html p{
+    font-family: Andale Mono;
+    color: black;
+    background: linear-gradient(
+		-45deg, 
+		#feac5e 50%, 
+		#4bc0c8 50%)    
+}
+h5{
+    font-family: Andale Mono;
+}
+#sample-metadata h3,h4{
+    font-family: Andale Mono;
+}
+.well{
+    border-color: #337ab7;
+}
+h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	font-weight: normal;
+	width: 100%;
+	text-align: center;
+	
+	font-size: 16vw;
+	background: linear-gradient(
+		-45deg, 
+		#4bc0c8 25%, 
+		#feac5e 25%, 
+		#feac5e 50%, 
+		#4bc0c8 50%, 
+		#4bc0c8 75%, 
+		#feac5e 75%, 
+		#feac5e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: $size $size;
+	background-position: 0 0;
+	animation: stripes 1s linear infinite;
+}	
+.pie{
+    padding: 10px;
+}
+
